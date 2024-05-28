@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: whitesmoke ;
   margin: 0;
   padding: 0;
 }
@@ -18,6 +18,25 @@ h6 {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
+  
+}
+/* .skip-link{
+  border:0;
+  clip:rect(1px 1px 1px 1px);
+  clip-path:inset(50%);
+  position: absolute;
+  overflow: hidden;
+  top:auto;
+  left:-10000px;
+  height:1px;
+  margin:-1px;
+  padding:0;
+  width: 1px;
+  word-wrap: normal !important;
+} */
+.skip-link:focus {
+  background-color: bisque;
+
 }
 
 img {
@@ -43,7 +62,30 @@ img {
   text-decoration: none;
   font-size: 1.25rem;
 }
-
+.owner h1{
+  padding-left:10px;
+}
+.adress{
+  padding-left:10px;
+}
+.adress p{
+  padding-left: 1rem;
+}
+.contact-section{
+  padding-left: 1rem;
+}
+.contact{
+  padding-left: 1rem;
+}
+.welcome{
+  padding-left: 10px;
+}
+.welcome p{
+  padding-left: 1rem;;
+}
+/* .welcome h1{
+  color: */
+/* } */
 form input,
 form textarea {
   display: block;
@@ -68,4 +110,5 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+  padding-left:10px;
 }
